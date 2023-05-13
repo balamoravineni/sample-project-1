@@ -1,0 +1,59 @@
+
+.App {
+  color: darkblue;
+}
+
+.card {
+  border: black solid 2px;
+  margin: 10px;
+  padding: 10px;
+  color: blue;
+}
+
+.comment {
+  border-left: gray solid 2px;
+  margin-top: 10px;
+  color: violet;
+  padding: 10px;
+}
+
+.person-details {
+  padding: 10px;
+  text-align: center;
+  
+  .input-item {
+    display: block;
+    margin: 15px;
+  }
+  
+  && label {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  && input {
+    font-size: 20px;
+  }
+  
+  && button {
+    margin: 20px;
+  }
+}
+
+.todos {
+  text-align: center;
+  margin: 15px;
+
+  && input {
+    margin: 15px;
+  }
+
+  && span {
+    margin: 15px;
+  }
+
+  && button {
+    margin: 15px;
+  }
+}
+
